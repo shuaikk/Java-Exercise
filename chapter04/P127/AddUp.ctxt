@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=AddUp()
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ AddUp\n
+comment1.params=
+comment1.target=int\ sum()
+comment1.text=\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\n\ \n\ @param\ \ y\ \ \ a\ sample\ parameter\ for\ a\ method\n\ @return\ \ \ \ \ the\ sum\ of\ x\ and\ y\ \n
+comment2.params=x\ y
+comment2.target=int\ sum(int,\ int)
+comment3.params=n
+comment3.target=boolean\ isPrime(int)
+numComments=4

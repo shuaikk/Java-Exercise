@@ -20,4 +20,6 @@ comment5.text=\n\ Return\ details\ of\ the\ track\:\ artist,\ title\ and\ file\ 
 comment6.params=artist\ title\ filename
 comment6.target=void\ setDetails(java.lang.String,\ java.lang.String,\ java.lang.String)
 comment6.text=\n\ Set\ details\ of\ the\ track.\n\ @param\ artist\ The\ track's\ artist.\n\ @param\ title\ The\ track's\ title.\n\ @param\ filename\ The\ track\ file.\ \n
-numComments=7
+comment7.params=
+comment7.target=int\ Count()
+numComments=8
