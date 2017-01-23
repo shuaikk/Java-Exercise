@@ -1,0 +1,30 @@
+#BlueJ class context
+comment0.params=cost
+comment0.target=TicketMachine(int)
+comment0.text=\n\ Create\ a\ machine\ that\ issues\ tickets\ of\ the\ given\ price.\n
+comment1.params=
+comment1.target=int\ getPrice()
+comment1.text=public\ void\ setPrice(int\ cost)\n\ \ \ \ {\n\ \ \ \ \ \ \ \ price\ \=\ cost;\n}
+comment10.params=
+comment10.target=int\ emptyMachine()
+comment2.params=
+comment2.target=int\ getBalance()
+comment2.text=\n\ Return\ The\ amount\ of\ money\ already\ inserted\ for\ the\n\ next\ ticket.\n
+comment3.params=amount
+comment3.target=void\ insertMoney(int)
+comment3.text=\n\ Receive\ an\ amount\ of\ money\ from\ a\ customer.\n\ Check\ that\ the\ amount\ is\ sensible.\n
+comment4.params=
+comment4.target=void\ printTicket()
+comment4.text=public\ void\ printTicket()\n\ \ \ \ {\n\ \ \ \ \ \ \ \ if(balance\ >\=\ price)\ {\n\ \ \ \ \ \ \ \ \ \ \ \ //\ Simulate\ the\ printing\ of\ a\ ticket.\n\ \ \ \ \ \ \ \ \ \ \ \ System.out.println("\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#");\n\ \ \ \ \ \ \ \ \ \ \ \ System.out.println("\#\ The\ BlueJ\ Line");\n\ \ \ \ \ \ \ \ \ \ \ \ System.out.println("\#\ Ticket");\n\ \ \ \ \ \ \ \ \ \ \ \ System.out.println("\#\ "\ +\ price\ +\ "\ cents.");\n\ \ \ \ \ \ \ \ \ \ \ \ System.out.println("\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#");\n\ \ \ \ \ \ \ \ \ \ \ \ System.out.println();\n\n\ \ \ \ \ \ \ \ \ \ \ \ //\ Update\ the\ total\ collected\ with\ the\ price.\n\ \ \ \ \ \ \ \ \ \ \ \ total\ \=\ total\ +\ price;\n\ \ \ \ \ \ \ \ \ \ \ \ //\ Reduce\ the\ balance\ by\ the\ price.\n\ \ \ \ \ \ \ \ \ \ \ \ balance\ \=\ balance\ -\ price;\n\ \ \ \ \ \ \ \ }\n\ \ \ \ \ \ \ \ else\ {\n\ \ \ \ \ \ \ \ \ \ \ \ System.out.println("You\ must\ insert\ at\ least\:\ "\ +\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (price\ -\ balance)\ +\ "\ more\ cents.");\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \n\ \ \ \ \ \ \ \ }\n}
+comment5.params=
+comment5.target=int\ refundBalance()
+comment5.text=\n\ Return\ the\ money\ in\ the\ balance.\n\ The\ balance\ is\ cleared.\n
+comment6.params=
+comment6.target=int\ getTotal()
+comment7.params=amount
+comment7.target=void\ discount(int)
+comment8.params=
+comment8.target=void\ prompt()
+comment9.params=
+comment9.target=void\ showPrice()
+numComments=11

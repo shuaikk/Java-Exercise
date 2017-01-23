@@ -1,0 +1,45 @@
+Class documentation
+<---- javadoc command: ---->
+/usr/lib/jvm/java-8-openjdk-amd64/bin/javadoc
+-author
+-version
+-nodeprecated
+-package
+-noindex
+-notree
+-nohelp
+-nonavbar
+-source
+1.8
+-classpath
+/usr/share/bluej/bluejcore.jar:/usr/share/bluej/junit-4.8.2.jar:/usr/share/bluej/userlib/pi4j-core.jar:/usr/share/bluej/userlib/pi4j-service.jar:/usr/share/bluej/userlib/pi4j-device.jar:/usr/share/bluej/userlib/pi4j-gpio-extension.jar:/afs/kth.se/home/tmp/1009/tmpuser-10209/Download/projects/projects/chapter01/figures
+-d
+/afs/kth.se/home/tmp/1009/tmpuser-10209/Download/projects/projects/chapter01/figures/doc
+-encoding
+UTF-8
+-charset
+UTF-8
+-docletpath
+/usr/share/bluej/bjdoclet.jar
+-doclet
+bluej.doclet.doclets.formats.html.HtmlDoclet
+/afs/kth.se/home/tmp/1009/tmpuser-10209/Download/projects/projects/chapter01/figures/Canvas.java
+<---- end of javadoc command ---->
+Loading source file /afs/kth.se/home/tmp/1009/tmpuser-10209/Download/projects/projects/chapter01/figures/Canvas.java...
+Constructing Javadoc information...
+Standard Doclet version 1.8.0_111
+Building tree for all the packages and classes...
+Generating /afs/kth.se/home/tmp/1009/tmpuser-10209/Download/projects/projects/chapter01/figures/doc/Canvas.html...
+/afs/kth.se/home/tmp/1009/tmpuser-10209/Download/projects/projects/chapter01/figures/Canvas.java:16: warning - @author: is an unknown tag.
+/afs/kth.se/home/tmp/1009/tmpuser-10209/Download/projects/projects/chapter01/figures/Canvas.java:16: warning - @author: is an unknown tag.
+/afs/kth.se/home/tmp/1009/tmpuser-10209/Download/projects/projects/chapter01/figures/Canvas.java:123: warning - @param argument "newColor" is not a parameter name.
+Generating /afs/kth.se/home/tmp/1009/tmpuser-10209/Download/projects/projects/chapter01/figures/doc/package-frame.html...
+Generating /afs/kth.se/home/tmp/1009/tmpuser-10209/Download/projects/projects/chapter01/figures/doc/package-summary.html...
+Generating /afs/kth.se/home/tmp/1009/tmpuser-10209/Download/projects/projects/chapter01/figures/doc/constant-values.html...
+Building index for all the packages and classes...
+Building index for all classes...
+Generating /afs/kth.se/home/tmp/1009/tmpuser-10209/Download/projects/projects/chapter01/figures/doc/allclasses-frame.html...
+Generating /afs/kth.se/home/tmp/1009/tmpuser-10209/Download/projects/projects/chapter01/figures/doc/allclasses-noframe.html...
+Generating /afs/kth.se/home/tmp/1009/tmpuser-10209/Download/projects/projects/chapter01/figures/doc/index.html...
+Generating /afs/kth.se/home/tmp/1009/tmpuser-10209/Download/projects/projects/chapter01/figures/doc/stylesheet.css...
+3 warnings
