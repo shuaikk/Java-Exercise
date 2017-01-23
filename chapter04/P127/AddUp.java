@@ -16,7 +16,7 @@ public class AddUp
     public AddUp()
     {
         // initialise instance variables
-        x = 0;
+        x = 1;
     }
 
     /**
