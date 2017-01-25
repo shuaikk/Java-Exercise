@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-
+import java.util.Iterator;
 /**
  * A class to hold details of audio tracks.
  * Individual tracks may be played.
@@ -57,6 +57,7 @@ public class MusicOrganizer
             Track track = tracks.get(index);
             player.startPlaying(track.getFilename());
             System.out.println("Now playing: " + track.getArtist() + " - " + track.getTitle());
+            track.increment();
         }
     }
     
@@ -83,7 +84,7 @@ public class MusicOrganizer
     /**
      * Show a list of all the tracks in the collection.
      */
-    public void listAllTracks()
+    /*public void listAllTracks()
     {
         System.out.println("Track listing: ");
 
@@ -91,7 +92,21 @@ public class MusicOrganizer
             System.out.println(track.getDetails());
         }
         System.out.println();
+    }*/
+    
+     public void listAllTracks()
+    {
+        System.out.println("Track listing: ");
+
+        Iterator<Track> it = tracks.iterator();
+        while(it.hasNext()){
+            Track t = it.next();
+            System.out.println(t.getDetails());}
+
     }
+    
+    
+    
     
     /**
      * List all tracks by the given artist.
@@ -117,6 +132,27 @@ public class MusicOrganizer
         }
     }
     
+  /**
+   * Remove a track index =4 using Iterator
+   */
+  public void removeTrack2(int index)
+    {
+        System.out.println("Test remove: ");
+
+        Iterator<Track> it = tracks.iterator();
+        while(it.hasNext()){
+            Track t = it.next();
+            String filename = t.getFilename();
+            if(filename.equals("../audio/1.mp3") ){
+               System.out.println(t.getDetails()); 
+               Track m = tracks.get(4);
+               System.out.println("before remove"+ m);
+               it.remove();
+               System.out.println("after remove"+ m);
+     
+        }
+    }
+    }
     /**
      * Play the first track in the collection, if there is one.
      */

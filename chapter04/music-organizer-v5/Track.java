@@ -88,9 +88,13 @@ public class Track
         this.filename = filename;
     }
     
-    public int Count()
+    public int increment()
     {
      playCount ++;
      return playCount;}
-    
+     
+    public int reset()
+    {
+     playCount = 0; 
+    return playCount;}
 }
