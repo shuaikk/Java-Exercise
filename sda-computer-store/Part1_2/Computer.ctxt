@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=theProcessor\ theHardDisk\ theDisplay
+comment0.target=Computer(Processor,\ HardDisk,\ Display)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Computer\n
+comment1.params=
+comment1.target=void\ printComputerSummary()
+comment1.text=\n\ Print\ one\ Computer's\ \ total\ cost\n
+comment2.params=
+comment2.target=int\ getComputerSummary()
+comment2.text=\n\ Get\ one\ Computer's\ \ total\ cost\n
+numComments=3

@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=manufacturer\ cost
+comment0.target=Component(java.lang.String,\ int)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Component\n
+comment1.params=
+comment1.target=int\ getCost()
+comment1.text=\n\ Return\ the\ cost\ of\ this\ Component.\n
+comment2.params=
+comment2.target=java.lang.String\ getDescription()
+comment2.text=\n\ Return\ the\ manufacturer\ of\ this\ Component.\n
+comment3.params=manufacturer
+comment3.target=void\ setManufacturer(java.lang.String)
+comment3.text=\n\ Set\ the\ manufacturer\ of\ this\ Component.\n
+comment4.params=cost
+comment4.target=void\ setCost(int)
+comment4.text=\n\ Set\ the\ cost\ of\ this\ Component.\n
+numComments=5

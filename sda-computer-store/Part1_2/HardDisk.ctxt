@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=manufacturer\ capacity\ cost
+comment0.target=HardDisk(java.lang.String,\ java.lang.String,\ int)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ HardDisk\n
+comment1.params=
+comment1.target=java.lang.String\ getCapacity()
+comment1.text=\n\ Return\ the\ capacity\ of\ this\ HardDisk.\n
+comment2.params=capacity
+comment2.target=void\ setCapacity(java.lang.String)
+comment2.text=\n\ Set\ the\ capacity\ of\ this\ HardDisk.\n
+numComments=3

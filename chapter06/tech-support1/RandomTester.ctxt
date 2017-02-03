@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=RandomTester()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ RandomTester\r\n
+comment1.params=
+comment1.target=void\ printOneRandom()
+comment1.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\ \r\n\ @param\ \ y\ \ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ \ the\ sum\ of\ x\ and\ y\ \r\n
+comment2.params=size
+comment2.target=void\ printOneRandom(int)
+comment3.params=
+comment3.target=void\ throwDie()
+comment3.text=/Exercise\ 6.16\ \tP185\ nextInt(int\ bound)\r\nReturns\ a\ pseudorandom,\ uniformly\ distributed\ int\ value\ between\ 0\ (inclusive)\ and\ the\ specified\ value\ (exclusive),\ drawn\ from\ this\ random\ number\ generator's\ sequence.
+comment4.params=
+comment4.target=void\ getResponse()
+comment5.params=max\ min
+comment5.target=void\ throwDie(int,\ int)
+numComments=6
