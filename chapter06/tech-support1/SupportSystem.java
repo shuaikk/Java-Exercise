@@ -37,9 +37,9 @@ public class SupportSystem
         printWelcome();
 
         while(!finished) {
-            String input = reader.getInput();
+            String input = reader.getInput().trim().toLowerCase(); //P182 Exercise 6.8, 6.9
 
-            if(input.startsWith("bye")) {
+            if(input.equals("bye")) {
                 finished = true;
             }
             else {

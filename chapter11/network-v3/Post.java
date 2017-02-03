@@ -65,7 +65,12 @@ public class Post
     {
         return timestamp;
     }
-
+    
+    //Exercise 11.7  P381
+    protected String getUserName()
+    {  return username;}
+    
+    
     /**
      * Display the details of this post.
      * 
@@ -74,7 +79,7 @@ public class Post
      */
     public void display()
     {
-        System.out.println(username);
+        //System.out.println(username);
         System.out.print(timeString(timestamp));
         
         if(likes > 0) {

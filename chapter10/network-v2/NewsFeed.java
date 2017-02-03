@@ -15,14 +15,14 @@ import java.util.ArrayList;
  */
 public class NewsFeed
 {
-    private ArrayList<Post> posts;
+    private ArrayList<CommentedPost> Posts;
 
     /**
      * Construct an empty news feed.
      */
     public NewsFeed()
     {
-        posts = new ArrayList<>();
+        Posts = new ArrayList<>();
     }
 
     /**
@@ -30,9 +30,9 @@ public class NewsFeed
      * 
      * @param post  The post to be added.
      */
-    public void addPost(Post post)
+    public void addPost(CommentedPost post)
     {
-        posts.add(post);
+        Posts.add(post);
     }
 
     /**
@@ -43,7 +43,7 @@ public class NewsFeed
     public void show()
     {
         // display all posts
-        for(Post post : posts) {
+        for(CommentedPost post : Posts) {
             post.display();
             System.out.println();   // empty line between posts
         }

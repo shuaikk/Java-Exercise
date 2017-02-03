@@ -54,7 +54,7 @@ public class PhotoPost extends Post
      * in a web browser for now.)
      */
     public void display()
-    {
+    {   super.display();
         System.out.println("  [" + filename + "]");
         System.out.println("  " + caption);
     }

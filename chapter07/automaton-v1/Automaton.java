@@ -23,6 +23,7 @@ public class Automaton
         state = new int[numberOfCells];
         // Seed the automaton with a single 'on' cell in the middle.
         state[numberOfCells / 2] = 1;
+        state[numberOfCells / 2 +1] = 1; //Exercise 7.27 P239
     }
     
     /**

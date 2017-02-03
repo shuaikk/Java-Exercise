@@ -75,8 +75,46 @@ public class SalesItemTest
     {
         SalesItem salesIte1 = new SalesItem("Brain Surgery for Dummies.", 9899);
         assertEquals(true, salesIte1.addComment("Fred", "Great - I perform brain surgery every week now!", 4));
+        assertEquals(false, salesIte1.addComment("Fred", "Great - I perform brain surgery every week now!", 4));
+    }
+
+    @Test
+    public void testTwoComments()
+    {
+        SalesItem salesIte1 = new SalesItem("pen", 28);
+        assertEquals(true, salesIte1.addComment("SALLY", "good", 4));
+        assertEquals(true, salesIte1.addComment("Steven", "good", 5));
+        assertEquals(2, salesIte1.getNumberOfComments());
+    }
+
+    @Test
+    public void testRating()
+    {
+        SalesItem salesIte1 = new SalesItem("pen", 28);
+        assertEquals(false, salesIte1.addComment("SALLY", "good", 7));
+        assertEquals(false, salesIte1.addComment("Steven", "good", -1));
+        assertEquals(false, salesIte1.addComment("Kan", "bra", 22));
+    }
+
+    @Test
+    public void testMostHelpful()
+    {
+        SalesItem salesIte1 = new SalesItem("book", 180);
+        assertEquals(null, salesIte1.findMostHelpfulComment());
+        assertEquals(true, salesIte1.addComment("sally", "good", 4));
+        assertEquals(true, salesIte1.addComment("kan", "bra", 5));
+        Comment comment1 = salesIte1.findMostHelpfulComment();
+        assertEquals("sally", comment1.getAuthor());
+        salesIte1.upvoteComment(1);
+        salesIte1.upvoteComment(1);
+        salesIte1.findMostHelpfulComment();
+        Comment comment2 = salesIte1.findMostHelpfulComment();
+        assertEquals("kan", comment2.getAuthor());
     }
 }
+
+
+
 
 
 

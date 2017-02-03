@@ -131,14 +131,17 @@ public class SalesItem
     public Comment findMostHelpfulComment()
     {
         Iterator<Comment> it = comments.iterator();
-        Comment best = it.next();
+        
         while(it.hasNext()) {
+            Comment best = it.next();
             Comment current = it.next();
             if(current.getVoteCount() > best.getVoteCount()) {
                 best = current;
             }
-        }
-        return best;
+         return best;}
+         
+         return null;
+        
     }
     
     /**

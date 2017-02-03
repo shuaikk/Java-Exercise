@@ -8,7 +8,7 @@ import java.util.ArrayList;
  * @author Michael Kölling and David J. Barnes
  * @version 0.2
  */
-public class PhotoPost extends Post
+public class PhotoPost extends CommentedPost
 {
     private String filename;  // the name of the image file
     private String caption;   // a one line image caption
@@ -45,5 +45,11 @@ public class PhotoPost extends Post
     public String getCaption()
     {
         return caption;
+    }
+    
+        //Exercise 10.6 P347
+   public void printShortSummary()
+   {
+    System.out.println("Message post from "+ getUserName());
     }
 }

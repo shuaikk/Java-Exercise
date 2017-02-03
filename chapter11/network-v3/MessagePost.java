@@ -42,6 +42,9 @@ public class MessagePost extends Post
      */
     public void display()
     {
+        System.out.println(getUserName());
         System.out.println(message);
+        super.display();
+        
     }
 }
